@@ -21,4 +21,14 @@ abstract public class BasePage {
     public void waitElementToBeClickable(WebElement element){
         wait.until(ExpectedConditions.elementToBeClickable(element));
     }
+
+    public void writeText(WebElement element, String text){
+        waitElementToAppear(element);
+        element.sendKeys(text);
+    }
+
+    public void clickElement(WebElement element){
+        waitElementToBeClickable(element);
+        element.click();
+    }
 }
