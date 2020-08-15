@@ -16,7 +16,7 @@ pipeline{
   stages{
     stage('Create Selenium Grid'){
       steps{
-        bat "docker-compose up"
+        bat "docker-compose up -d"
       }
     }
     stage('Run tests'){
