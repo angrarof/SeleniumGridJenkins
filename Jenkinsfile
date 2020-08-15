@@ -21,7 +21,7 @@ pipeline{
     }
     stage('Run tests'){
        steps{
-         sh "mvn test -DsuiteXmlFiles=src/test/resources/${params.xmlFile}"
+         sh "mvn test -DsuiteXmlFile=src/test/resources/${params.suiteXmlFile}"
         }
     }
   }
