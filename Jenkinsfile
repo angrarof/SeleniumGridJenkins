@@ -28,7 +28,7 @@ pipeline{
 
   post{
     always{
-      sh 'docker-compose down'
+      bat 'docker-compose down'
       junit 'target/**/*.xml'
       junit 'target/surefire-reports/**/*.xml'
     }
