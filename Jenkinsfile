@@ -16,7 +16,7 @@ pipeline{
   stages{
     stage('Create Selenium Grid'){
       steps{
-        sh "docker-compose up -d"
+        sh "docker-compose up --build -d"
       }
     }
     stage('Run tests'){
@@ -29,8 +29,6 @@ pipeline{
   post{
     always{
       sh 'docker-compose down'
-      junit 'target/**/*.xml'
-      junit 'target/surefire-reports/**/*.xml'
     }
   }
 

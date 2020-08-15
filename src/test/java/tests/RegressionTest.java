@@ -16,10 +16,10 @@ public class RegressionTest extends BaseTest {
 
 
     @Test
-
-    public void searchForProduct(String browser) throws InterruptedException {
+    public void searchForProduct() {
+        System.out.println("Starting test");
         homePage.enterTextOnSearchBox("This is the first test of xml file");
         homePage.clickOnSearchButton();
-        Thread.sleep(5000);
+        System.out.println("Finishing test");
     }
 }

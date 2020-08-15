@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 
 public class DriverSetup {
     private WebDriver driver;
-    private final String nodeUrl="http://localhost:4444/wd/hub/";
+    private final String nodeUrl="http://192.168.100.27:4444/wd/hub/";
 
     public DriverSetup(String browser, boolean headless) throws MalformedURLException {
         switch (browser.toLowerCase()){

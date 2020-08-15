@@ -1,7 +1,7 @@
 package settings;
 
 abstract public class WaitingTimeSetup {
-    private final static int WAIT_FOR_WEB_ELEMENT=40;
+    private final static int WAIT_FOR_WEB_ELEMENT=20;
     private final static int WAIT_FOR_PAGE_LOAD=60;
     private final static int WAIT_IMPLICIT=30;
 
