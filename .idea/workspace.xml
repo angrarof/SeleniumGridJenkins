@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6b1cc82b-6596-45dc-aebb-b6159945f62d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/settings/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/settings/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/settings/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/settings/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegressionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegressionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/XmlFiles/Regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/XmlFiles/Regression.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +48,23 @@
       <recent name="C:\Users\angel.aguilar\IdeaProjects\grid-jenkins-docker" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="C:/Users/angel.aguilar/IdeaProjects/grid-jenkins-docker/src/test/resources/XmlFiles/Regression.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="grid-jenkins-docker" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/XmlFiles/Regression.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/angel.aguilar/IdeaProjects/grid-jenkins-docker/src/test/resources/XmlFiles/Regression.xml" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -63,5 +83,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1597431649943" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1597467888343">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597467888343" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1597467888343">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597467888343" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1597467888342">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597467888342" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1597467888343">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597467888343" />
   </component>
 </project>
