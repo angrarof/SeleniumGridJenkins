@@ -16,7 +16,7 @@ pipeline{
   stages{
     stage('Create Selenium Grid'){
       steps{
-        sh "docker-compose -f docker-compose_backup.yml up --build -d"
+        sh "docker-compose -f docker-compose_back.yml up --build -d"
       }
     }
     stage('Run tests'){
