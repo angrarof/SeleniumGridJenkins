@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test NG">
+    <test name="Firefox">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="tests.SingleTest"/>
+        </classes>
+    </test>
+
+    <test name="Chrome">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="tests.SingleTest"/>
+        </classes>
+    </test>
+</suite>

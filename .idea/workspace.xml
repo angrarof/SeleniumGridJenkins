@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b1cc82b-6596-45dc-aebb-b6159945f62d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/settings/DriverSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/settings/DriverSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/settings/WaitingTimeSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/settings/WaitingTimeSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegressionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegressionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/settings/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/settings/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +39,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/XmlFiles" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\angel.aguilar\IdeaProjects\grid-jenkins-docker\src\test\resources\XmlFiles" />
       <recent name="C:\Users\angel.aguilar\IdeaProjects\grid-jenkins-docker" />
     </key>
   </component>

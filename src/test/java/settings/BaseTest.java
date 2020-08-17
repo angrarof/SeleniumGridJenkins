@@ -13,14 +13,14 @@ public class BaseTest {
     @BeforeTest
     @org.testng.annotations.Parameters(value = {"browser"})
     public void suitSetup(String browser) throws MalformedURLException {
-        driver = new DriverSetup("chrome",false).getDriver();
+        driver = new DriverSetup(browser,false).getDriver();
         System.out.println(browser);
         driver.get("https://www.amazon.com.mx/");
     }
 
     @AfterTest
     public void tearDown(){
-        driver.close();
+        //driver.close();
         driver.quit();
     }
 }
