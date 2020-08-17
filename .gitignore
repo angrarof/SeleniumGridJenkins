@@ -73,3 +73,5 @@ ipch/
 target/
 *.iml
 .idea/
+.idea/*
+testResults/
