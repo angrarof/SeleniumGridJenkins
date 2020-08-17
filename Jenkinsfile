@@ -16,7 +16,7 @@ pipeline{
   stages{
     stage('Create Selenium Grid'){
       steps{
-        sh "docker-compose -f docker-compose_back.yml up --build -d"
+        sh "docker-compose up --build -d"
       }
     }
     stage('Run tests'){
@@ -28,6 +28,7 @@ pipeline{
 
   post{
     always{
+      sh 'docker-compose stop'
       sh 'docker-compose down'
     }
   }
