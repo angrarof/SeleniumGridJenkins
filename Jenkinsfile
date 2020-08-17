@@ -30,6 +30,7 @@ pipeline{
     always{
       sh 'docker-compose stop'
       sh 'docker-compose down'
+      sh 'docker rm $(docker ps -qa)'
     }
   }
 
