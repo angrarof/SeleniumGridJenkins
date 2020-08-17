@@ -28,7 +28,9 @@ pipeline{
 
   post{
     always{
-      sh 'docker-compose down'
+      sh 'docker-compose -f docker-compose_back.yml stop'
+      sh 'docker-compose -f docker-compose_back.yml down'
+      sh 'docker rm $(docker ps -qa)'
     }
   }
 
