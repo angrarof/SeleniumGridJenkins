@@ -30,7 +30,6 @@ pipeline{
     always{
       sh 'docker-compose -f docker-compose_back.yml stop'
       sh 'docker-compose -f docker-compose_back.yml down'
-      sh 'docker rm $(docker ps -qa)'
     }
   }
 
