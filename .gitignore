@@ -74,4 +74,6 @@ target/
 *.iml
 .idea/
 .idea/*
+*/*.xml
 testResults/
+TestResults/

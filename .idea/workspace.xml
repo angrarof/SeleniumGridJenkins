@@ -5,6 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/settings/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/settings/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/settings/DriverSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/settings/DriverSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/settings/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/settings/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +53,50 @@
       <recent name="settings" />
     </key>
   </component>
+  <component name="RunManager" selected="TestNG.AnimeTest.validateAnimeSearched">
+    <configuration name="AnimeTest.searchForAnime" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="grid-jenkins-docker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AnimeTest" />
+      <option name="METHOD_NAME" value="searchForAnime" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimeTest.validateAnimeSearched" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="grid-jenkins-docker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AnimeTest" />
+      <option name="METHOD_NAME" value="validateAnimeSearched" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AnimeTest.validateAnimeSearched" />
+        <item itemvalue="TestNG.AnimeTest.searchForAnime" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -68,5 +115,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1597431649943" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1597714000741">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597714000741" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1597714000741">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597714000741" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1597714000740">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597714000740" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1597714000741">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597714000741" />
   </component>
 </project>

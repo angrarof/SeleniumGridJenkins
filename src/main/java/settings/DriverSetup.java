@@ -2,6 +2,7 @@ package settings;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
@@ -25,6 +26,7 @@ public class DriverSetup {
                     chromeOptions.addArguments("--headless");
                 }
                 driver = new RemoteWebDriver(new URL(nodeUrl),chromeOptions);
+                //driver = new ChromeDriver(chromeOptions);
                 break;
             case "firefox":
                 FirefoxOptions firefoxOptions = new FirefoxOptions();
