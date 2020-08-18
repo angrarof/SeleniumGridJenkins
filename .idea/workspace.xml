@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b1cc82b-6596-45dc-aebb-b6159945f62d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/settings/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/settings/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/settings/DriverSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/settings/DriverSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/settings/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/settings/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +43,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">

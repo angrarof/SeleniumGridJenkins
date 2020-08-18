@@ -25,8 +25,8 @@ public class DriverSetup {
                 if(headless){
                     chromeOptions.addArguments("--headless");
                 }
-                driver = new RemoteWebDriver(new URL(nodeUrl),chromeOptions);
-                //driver = new ChromeDriver(chromeOptions);
+                //driver = new RemoteWebDriver(new URL(nodeUrl),chromeOptions);
+                driver = new ChromeDriver(chromeOptions);
                 break;
             case "firefox":
                 FirefoxOptions firefoxOptions = new FirefoxOptions();
