@@ -13,7 +13,7 @@ public class AnimeTest extends BaseTest {
     private NavigationVar navigationVar;
     private AnimePage animePage;
 
-    @BeforeClass
+    @BeforeClass(alwaysRun = true)
     public void beforeClass(){
         navigationVar = new NavigationVar(this.driver);
         animePage = new AnimePage(this.driver);

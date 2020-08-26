@@ -10,7 +10,7 @@ import java.net.MalformedURLException;
 public class BaseTest {
     protected WebDriver driver;
 
-    @BeforeTest
+    @BeforeTest(alwaysRun = true)
     public void suitSetup() throws Exception {
         driver = new DriverSetup("chrome",false).getDriver();
         driver.get("https://www.animeflv.net/");

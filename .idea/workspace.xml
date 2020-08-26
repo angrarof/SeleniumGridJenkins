@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6b1cc82b-6596-45dc-aebb-b6159945f62d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/settings/DriverSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/settings/DriverSetup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="testWithGridCompose" />
+        <entry key="$PROJECT_DIR$" value="TestWithXml" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,14 +42,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Provider" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="settings" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AnimeTest.validateAnimeSearched">
+  <component name="RunManager" selected="TestNG.AnimeTest.searchForAnime">
     <configuration name="AnimeTest.searchForAnime" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="grid-jenkins-docker" />
       <extension name="coverage">
@@ -89,6 +88,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AnimeTest.searchForAnime" />
+        <item itemvalue="TestNG.AnimeTest.validateAnimeSearched" />
         <item itemvalue="TestNG.AnimeTest.validateAnimeSearched" />
         <item itemvalue="TestNG.AnimeTest.searchForAnime" />
       </list>
@@ -112,21 +113,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1597431649943" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1597714000741">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1598314298222">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1360.0.1360.728@0.0.1366.728" timestamp="1598314298222" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1598472671261">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1360.0.1360.728@0.0.1366.728" timestamp="1598472671261" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597714000741" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1597714000741">
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1598472671261">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1360.0.1360.728@0.0.1366.728" timestamp="1598472671261" />
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597714000741" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1597714000740">
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1598472671261">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1360.0.1360.728@0.0.1366.728" timestamp="1598472671261" />
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597714000740" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1597714000741">
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1598472671261">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1360.0.1360.728@0.0.1366.728" timestamp="1598472671261" />
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597714000741" />
   </component>
 </project>
