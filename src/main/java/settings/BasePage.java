@@ -9,10 +9,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 abstract public class BasePage {
     protected WebDriver driver;
     protected WebDriverWait wait;
+    protected JavascriptExecutor js;
 
     public BasePage(WebDriver driver){
         this.driver = driver;
         wait = new WebDriverWait(this.driver, WaitingTimeSetup.getWaitForWebElement());
+        js = (JavascriptExecutor) this.driver;
     }
 
     public void waitElementToAppear(WebElement element){
@@ -40,10 +42,14 @@ abstract public class BasePage {
 
     public void clickOnElement(WebElement element, boolean scroll){
         if(scroll){
-            JavascriptExecutor js = (JavascriptExecutor) driver;
             js.executeScript("arguments[0].scrollIntoView();",element);
         }
         waitElementToBeClickable(element);
         element.click();
+    }
+
+    public String getInvisibleText(WebElement element){
+        String text = element.getAttribute("textContent");
+        return text;
     }
 }
